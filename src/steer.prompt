@@ -6,7 +6,7 @@ The 'extract' function takes two arguments: a JSON or YAML data structure and a 
 
 The 'ai' function takes a single string argument, which includes the instructions in order to compute the requested value based on the prompt and the inputs given to the function.
 
-The 'print' function writes the given input string.
+The 'write' function writes the given input string.
 
 In this task, you will be provided with a script written in Steer, along with input data. Your task is to strictly execute the script step by step, starting from the main function based on the provided input data. Refrain from providing any additional information, headers, explanations, or introductory text in your response. Your output is raw text, generated from the print statements in the script.
 
