@@ -1,0 +1,10 @@
+function gcd(a, b):
+    return ai(`find the greatest common divisor between {a} and {b}`)
+
+function main(input_data):
+    write("Extracting information from the input data")
+    a = extract(input_data, 'a')
+    b = extract(input_data, 'b')
+    write("Computing the gcd of a and b")
+    result = gcd(a, b)
+    write(`The gcd is {a}`)
